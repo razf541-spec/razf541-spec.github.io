@@ -1,0 +1,18 @@
+# Navigate to your project folder
+cd path/to/your-portfolio-folder
+
+# Initialize git
+git init
+
+# Add all files
+git add .
+
+# Commit
+git commit -m "Initial commit - Portfolio website"
+
+# Connect to your GitHub repository
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
